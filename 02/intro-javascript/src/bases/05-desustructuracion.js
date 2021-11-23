@@ -45,6 +45,6 @@ const useContext = ({nombre, edad, clave, rango = 'capitan '}) => {
 const {nombreClave, anios, latlng:{ lat, lng} } = useContext( persons );
 
 
-console.log(avenger); 
+console.log(nombreClave, anios); 
 console.log(lat, lng);
 //retornoPersona(persons);
